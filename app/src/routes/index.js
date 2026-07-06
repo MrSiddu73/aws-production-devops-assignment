@@ -13,4 +13,6 @@ router.get("/system", systemController.system);
 
 router.get("/time", systemController.time);
 
+router.get("/version", systemController.version);
+
 module.exports = router;

@@ -37,3 +37,13 @@ exports.time = (req, res) => {
         serverTime: new Date()
     });
 };
+
+const packageJson = require("../../package.json");
+
+exports.version = (req, res) => {
+    res.json({
+        application: packageJson.name,
+        version: packageJson.version,
+        environment: process.env.NODE_ENV || "development"
+    });
+};
