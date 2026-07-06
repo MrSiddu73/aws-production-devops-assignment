@@ -12,7 +12,7 @@ tar -czf $BACKUP_NAME /home/ubuntu/aws-production-devops-assignment
 
 echo "Uploading backup to S3..."
 
-aws s3 cp $BACKUP_NAME s3://siddu-devops-assignment-backup/
+aws s3 cp $BACKUP_NAME s3://siddu-devops-assignment-backup/backups/
 
 echo "Backup uploaded successfully."
 
