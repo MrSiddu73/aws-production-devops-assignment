@@ -3,7 +3,7 @@ const os = require("os");
 exports.home = (req, res) => {
     res.json({
         application: "AWS Production DevOps Assignment",
-        status: "Running"
+        status: "Running - CI/CD Successful"
     });
 };
 
