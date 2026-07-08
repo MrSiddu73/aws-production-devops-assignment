@@ -298,7 +298,7 @@ Implemented security best practices:
 **Siddu S N**
 
 - GitHub: https://github.com/MrSiddu73
-- LinkedIn: *(Add your LinkedIn profile URL here)*
+- LinkedIn: https://www.linkedin.com/in/sid73/
 
 ---
 
